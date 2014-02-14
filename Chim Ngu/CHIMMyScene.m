@@ -7,7 +7,7 @@
 //
 
 #import "CHIMMyScene.h"
-
+@import AVFoundation;
 static const uint32_t chimCategory =  0x1 << 0;
 static const uint32_t obstacleCategory =  0x1 << 1;
 
@@ -208,7 +208,7 @@ static inline CGPoint CGPointMultiplyScalar(const CGPoint a, const CGFloat b)
     }else if(!frozen){
         self.velocity = CGPointMake(0.0, 0.0);
         if(_chim.position.y < screenHeight){
-            
+            [self runAction:[SKAction playSoundFileNamed:@"flap.mp3" waitForCompletion:NO]];
             SKAction *rotation = [SKAction rotateByAngle: M_PI/2.0 duration:0.5];
             //and just run the action
             [_chim runAction: rotation];
@@ -219,6 +219,9 @@ static inline CGPoint CGPointMultiplyScalar(const CGPoint a, const CGFloat b)
         }
     }
   
+
+}
+-(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 
 }
 
