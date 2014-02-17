@@ -34,6 +34,8 @@
 		5E04976518ADEB3F00C00235 /* ong duoi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E04976318ADEB3F00C00235 /* ong duoi.png */; };
 		5E04976918AE080100C00235 /* hinhnen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E04976818AE080100C00235 /* hinhnen.png */; };
 		5E04976B18AE08ED00C00235 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E04976A18AE08ED00C00235 /* background.png */; };
+		5E04976D18AE28CA00C00235 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E04976C18AE28CA00C00235 /* Social.framework */; };
+		5E04977018B1A0FC00C00235 /* ApActivityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E04976F18B1A0FC00C00235 /* ApActivityData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		5E04976318ADEB3F00C00235 /* ong duoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ong duoi.png"; sourceTree = "<group>"; };
 		5E04976818AE080100C00235 /* hinhnen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hinhnen.png; sourceTree = "<group>"; };
 		5E04976A18AE08ED00C00235 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5E04976C18AE28CA00C00235 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5E04976E18B1A0FC00C00235 /* ApActivityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApActivityData.h; sourceTree = "<group>"; };
+		5E04976F18B1A0FC00C00235 /* ApActivityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApActivityData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E04976D18AE28CA00C00235 /* Social.framework in Frameworks */,
 				5E04971018ACB32D00C00235 /* CoreGraphics.framework in Frameworks */,
 				5E04971218ACB32D00C00235 /* UIKit.framework in Frameworks */,
 				5E04971418ACB32D00C00235 /* SpriteKit.framework in Frameworks */,
@@ -129,6 +135,7 @@
 		5E04970C18ACB32D00C00235 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E04976C18AE28CA00C00235 /* Social.framework */,
 				5E04970D18ACB32D00C00235 /* Foundation.framework */,
 				5E04970F18ACB32D00C00235 /* CoreGraphics.framework */,
 				5E04971118ACB32D00C00235 /* UIKit.framework */,
@@ -141,6 +148,8 @@
 		5E04971518ACB32D00C00235 /* Chim Ngu */ = {
 			isa = PBXGroup;
 			children = (
+				5E04976E18B1A0FC00C00235 /* ApActivityData.h */,
+				5E04976F18B1A0FC00C00235 /* ApActivityData.m */,
 				5E04974C18ACB4BF00C00235 /* Image */,
 				5E04971E18ACB32E00C00235 /* CHIMAppDelegate.h */,
 				5E04971F18ACB32E00C00235 /* CHIMAppDelegate.m */,
@@ -312,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E04971C18ACB32D00C00235 /* main.m in Sources */,
+				5E04977018B1A0FC00C00235 /* ApActivityData.m in Sources */,
 				5E04972C18ACB32E00C00235 /* CHIMMyScene.m in Sources */,
 				5E04972918ACB32E00C00235 /* CHIMViewController.m in Sources */,
 				5E04972018ACB32E00C00235 /* CHIMAppDelegate.m in Sources */,
