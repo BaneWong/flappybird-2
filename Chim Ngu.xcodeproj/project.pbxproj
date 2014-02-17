@@ -36,6 +36,7 @@
 		5E04976B18AE08ED00C00235 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E04976A18AE08ED00C00235 /* background.png */; };
 		5E04976D18AE28CA00C00235 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E04976C18AE28CA00C00235 /* Social.framework */; };
 		5E04977018B1A0FC00C00235 /* ApActivityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E04976F18B1A0FC00C00235 /* ApActivityData.m */; };
+		CE2C509518AE688100BFB41F /* flap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2C509418AE688100BFB41F /* flap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		5E04976C18AE28CA00C00235 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		5E04976E18B1A0FC00C00235 /* ApActivityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApActivityData.h; sourceTree = "<group>"; };
 		5E04976F18B1A0FC00C00235 /* ApActivityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApActivityData.m; sourceTree = "<group>"; };
+		CE2C509418AE688100BFB41F /* flap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flap.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				5E04976E18B1A0FC00C00235 /* ApActivityData.h */,
 				5E04976F18B1A0FC00C00235 /* ApActivityData.m */,
+				CE2C509418AE688100BFB41F /* flap.mp3 */,
 				5E04974C18ACB4BF00C00235 /* Image */,
 				5E04971E18ACB32E00C00235 /* CHIMAppDelegate.h */,
 				5E04971F18ACB32E00C00235 /* CHIMAppDelegate.m */,
@@ -299,6 +302,7 @@
 				5E04975018ACB4BF00C00235 /* chim.png in Resources */,
 				5E04973018ACB32E00C00235 /* Images.xcassets in Resources */,
 				5E04972618ACB32E00C00235 /* Main_iPad.storyboard in Resources */,
+				CE2C509518AE688100BFB41F /* flap.mp3 in Resources */,
 				5E04976418ADEB3F00C00235 /* ong tren.png in Resources */,
 				5E04972318ACB32E00C00235 /* Main_iPhone.storyboard in Resources */,
 				5E04971A18ACB32D00C00235 /* InfoPlist.strings in Resources */,
