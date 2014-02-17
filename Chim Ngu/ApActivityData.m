@@ -13,15 +13,15 @@
           itemForActivityType:(NSString *)activityType
 {
     if ( [activityType isEqualToString:UIActivityTypePostToTwitter] )
-        return @"This is a #twitter post!";
+        return @"Playing Flappy Bird";
     if ( [activityType isEqualToString:UIActivityTypePostToFacebook] )
-        return @"This is a facebook post!";
+        return @"Playing Flappy Bird";
     if ( [activityType isEqualToString:UIActivityTypeMessage] )
-        return @"SMS message text";
+        return @"Playing Flappy Bird";
     if ( [activityType isEqualToString:UIActivityTypeMail] )
-        return @"Email text here!";
+        return @"Playing Flappy Bird";
     if ( [activityType isEqualToString:@"it.albertopasca.myApp"] )
-        return @"OpenMyapp custom text";
+        return @"Playing Flappy Bird";
     return nil;
 }
 - (id) activityViewControllerPlaceholderItem:(UIActivityViewController *)activityViewController { return @""; }
