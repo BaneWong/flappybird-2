@@ -13,15 +13,15 @@
           itemForActivityType:(NSString *)activityType
 {
     if ( [activityType isEqualToString:UIActivityTypePostToTwitter] )
-        return @"Playing Flappy Bird";
+        return [NSString stringWithFormat:@"OMG i just got %d score in Flappy Swain ! Play it free at https://itunes.apple.com/app/id824016618",[[NSUserDefaults standardUserDefaults] integerForKey:@"currentScore"]];
     if ( [activityType isEqualToString:UIActivityTypePostToFacebook] )
-        return @"Playing Flappy Bird";
+        return [NSString stringWithFormat:@"OMG i just got %d score in Flappy Swain ! Play it free at https://itunes.apple.com/app/id824016618",[[NSUserDefaults standardUserDefaults] integerForKey:@"currentScore"]];
     if ( [activityType isEqualToString:UIActivityTypeMessage] )
-        return @"Playing Flappy Bird";
+        return [NSString stringWithFormat:@"OMG i just got %d score in Flappy Swain ! Play it free at https://itunes.apple.com/app/id824016618",[[NSUserDefaults standardUserDefaults] integerForKey:@"currentScore"]];
     if ( [activityType isEqualToString:UIActivityTypeMail] )
         return @"Playing Flappy Bird";
     if ( [activityType isEqualToString:@"it.albertopasca.myApp"] )
-        return @"Playing Flappy Bird";
+        return [NSString stringWithFormat:@"OMG i just got %d score in Flappy Swain ! Play it free at https://itunes.apple.com/app/id824016618",[[NSUserDefaults standardUserDefaults] integerForKey:@"currentScore"]];
     return nil;
 }
 - (id) activityViewControllerPlaceholderItem:(UIActivityViewController *)activityViewController { return @""; }

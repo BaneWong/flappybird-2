@@ -75,7 +75,7 @@ static inline CGPoint CGPointMultiplyScalar(const CGPoint a, const CGFloat b)
         
         
         SKLabelNode *gameStart = [SKLabelNode labelNodeWithFontNamed:@"Arial"];
-        gameStart.text = @"Speedy Bird";
+        gameStart.text = @"Flappy Swain";
         gameStart.fontSize = 30;
         gameStart.fontColor = [SKColor whiteColor];
         gameStart.position = CGPointMake(self.size.width/2, self.size.height/2);
@@ -401,6 +401,10 @@ static inline CGPoint CGPointMultiplyScalar(const CGPoint a, const CGFloat b)
         [retryButton setScale:.5];
         
         [self addChild:retryButton];
+        
+        
+        [[NSUserDefaults standardUserDefaults] setInteger:score forKey:@"currentScore"];
+        
         if([[NSUserDefaults standardUserDefaults] integerForKey:@"hs"] < score)
         {
             [[NSUserDefaults standardUserDefaults]setObject: [NSNumber numberWithInt: score] forKey:@"hs"];
